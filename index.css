@@ -1,0 +1,22 @@
+.container {
+    width : 60%;
+    border: 3px solid red;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    height: 420px;
+    padding: 1% 0;
+    overflow-y: scroll;
+}
+.container>div{
+    margin: 3% 0;
+    font-size: 21px;
+    font-weight: bold;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
